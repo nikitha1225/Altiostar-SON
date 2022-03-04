@@ -1,0 +1,47 @@
+# Question Title :Crypto
+
+## Problem description:
+
+An Altiostar employee wanted to send a message to his friend in a group chat but he doesn't want
+other employees to know what the message is. so he decided to encrypt his message and send
+it in the group chat. as you who is a friend of him know how to decrypt it as you know how it is 
+encrypted.
+
+An Altiostar employee decided to change all the common letters used in English language to some symbols
+so that reading it when it's encrypted doesn't give any meaning to other employees.But you as his
+friend knows how to decrypt it.
+
+The encryption is as follows:
+
+e -> !\
+t -> @ \
+a -> #\
+i -> $ \
+o -> % \
+n -> ^ \
+s -> &\
+h -> *\
+r -> (
+
+So you as his friend need to write a function to decrypt the message sent to you by him.
+
+## Input constraints:
+All the letters in the message will be lowercase and maximum length will not exceed 2^32 -1
+
+## Input format:
+Encrpted string str.
+
+## output format:
+manipulate the string(as its a pass by reference to function) str so that it's encrypted.
+
+## sample input:
+
+1) gururaj
+2) batman
+3) ilovecandy
+
+## sample output:
+
+1) gu(u(#j
+2) b#)m#^
+3) $l%v!c#^dy
