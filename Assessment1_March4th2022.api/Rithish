@@ -1,0 +1,22 @@
+In C/C++ program we can define constants in two ways as shown below: 
+
+1. Using #define preprocessor directive
+
+2. Using a const keyword
+
+3. Literals: The values assigned to each constant variables are referred to as the literals. Generally, both terms, constants and literals are used interchangeably. For eg, “const int = 5;“, is a constant expression and the value 5 is referred to as constant integer literal. 
+
+4. Refer here for various Types of Literals in C++.
+
+5. Let us now learn about above two ways in details: 
+
+1.Using #define preprocessor directive: This directive is used to declare an alias name for existing variable or any value. We can use this to declare a constant as shown below:
+
+6.#define identifierName value
+
+7. identifierName: It is the name given to constant.
+
+8. value: This refers to any value assigned to identifierName.
+using a const keyword: Using const keyword to define constants is as simple as defining variables, the difference is you will have to precede the definition with a const keyword.
+
+9.  program shows how to use const to declare constants of different data types:
