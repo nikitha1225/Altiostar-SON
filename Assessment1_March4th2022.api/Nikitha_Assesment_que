@@ -1,0 +1,15 @@
+Write a program to calculate the grades of two students based on their average marks.
+1.Take the students' names as input.
+2.User is allowed to enter the marks of 5 subjects of both the students.
+3.Find the average 'avg' of 5 subjects of each student.
+4.Display the grades as per the table
+              Average   Grade
+              100-90     A+
+              90-80      A
+              80-70      B+
+              70-60      B
+              60-50      C
+              50-40      D
+              40-30      E
+              30-0       F
+5.Also display the student name who got the highest grade.
