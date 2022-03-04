@@ -1,0 +1,17 @@
+Create a program for ATM Pin management as per the following requirements:
+  Pin should be validated as follows:
+  1.Pin should have exactly 4 digits i.e.,numbers;
+  2.Pin can start with '0';
+  3.It should not have any other alphabets or special characters.
+
+  Username should be validated as follows:
+   1.It should have minimum 4 digits and maximum 8 digits.
+   2.It should start with alphabet.
+   3.It can have any other alphabets or special characters or digits.
+
+  You should contain two values per user i) Username  ii)Pin number.
+
+  Your program should
+   1.Allow the new user to register, create a new account by getting username and password and store it.
+   2.Allow the user to update the password, he/she should be authenticated before the update can be done.
+   3.Allow the Existing user to view his details on successful authentication, display the username 
